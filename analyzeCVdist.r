@@ -1,3 +1,7 @@
+# Makes a density plot showing the distributions of peak area CVs among the 5 replicate unstimulated samples
+# for all 3 of the HPLC column configurations. Each dataset (column configuration) is plotted as a different
+# series.
+
 library(ggplot2)
 library(gdata)
 
