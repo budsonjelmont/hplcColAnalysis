@@ -1,3 +1,9 @@
+# Script to show the distribution of peak area CVs in the unstimulated samples
+# as a function of the # of GetPeaks calls per row in the data. GetPeaks calls are
+# peaks that are defined 'manually' after peak detection via xcms dails.
+# Generates a separate plot for each HPLC column config, and each plot contains 6 
+# series, corresponding to 0-5 GetPeaks calls.
+
 library(ggplot2)
 library(gdata)
 
